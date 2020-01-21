@@ -1,5 +1,5 @@
 # tiktokapi3.0
-Source Code Of https:///tik-tok,ga
+Source Code Of https://tik-tok,ga
 
 (You can see this working on https://tik-tok.ga)
 
