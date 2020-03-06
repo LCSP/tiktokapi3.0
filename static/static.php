@@ -48,11 +48,11 @@ class staticHelper{
 
     //links vars
     //{CURSOR} - {KEYWORD} - {RND_DID}
-    public $userSearchUrl = "USER SEARCH URL"; //Contact me if you need this
+    public $userSearchUrl = "https://api2-16-h2.musical.ly/aweme/v1/discover/search/?cursor={CURSOR}&keyword={KEYWORD}&count=10&type=1&is_pull_refresh=0&hot_search=0&search_source&ts=1579012847&js_sdk_version=&app_type=normal&os_api=25&device_type=G011A&ssmix=a&manifest_version_code=2019011501&dpi=191&region=US&carrier_region=AR&carrier_region_v2=&app_name=musical_ly&version_name=9.9.0&timezone_offset=28800&ab_version=9.9.0&pass-route=1&pass-region=1&is_my_cn=0&fp=a_fake_fp&ac=wifi&update_version_code=2019011501&channel=googleplay&_rticket=1579012848293&device_platform=android&build_number=9.9.0&version_code=990&timezone_name=Asia%2FShanghai&sys_region=US&app_language=en&resolution=576*1024&os_version=7.1.2&device_brand=google&aid=1233&device_id={RND_DID}&iid=0";
     //{CURSOR} - {USER_ID} - {RND_DID}
-    public $userVideosUrl = "USER VIDEOS URL"; //Contact me if you need this
+    public $userVideosUrl = "http://api2.musical.ly/aweme/v1/aweme/post/?max_cursor={CURSOR}&user_id={USER_ID}&count=20&retry_type=retry_http&app_language=en&language=en&region=US&sys_region=US&carrier_region=AR&carrier_region_v2=&build_number=8.5.0&timezone_offset=28800&timezone_name=Asia%2FShanghai&mcc_mnc=72220&is_my_cn=0&fp=&iid=0&device_id={RND_DID}&ac=wifi&channel=googleplay&aid=1233&app_name=musical_ly&version_code=850&version_name=8.5.0&device_platform=android&ssmix=a&device_type=G011A&device_brand=google&os_api=25&os_version=7.1.2&manifest_version_code=2018091951&resolution=1023*547&dpi=191&update_version_code=2018091951&_rticket=1579011248410&ts=1579011247";
     //{USER_ID} - {RND_DID}
-    public $userInfoUrl = "USER INFO URL"; //Contact me if you need this
+    public $userInfoUrl = "http://api2.musical.ly/aweme/v1/user/?user_id={USER_ID}&retry_type=retry_http&app_language=en&language=en&region=US&sys_region=US&carrier_region=AR&carrier_region_v2=&build_number=8.5.0&timezone_offset=28800&timezone_name=Asia%2FShanghai&mcc_mnc=72220&is_my_cn=0&fp=&iid=0&device_id={RND_DID}&ac=wifi&channel=googleplay&aid=1233&app_name=musical_ly&version_code=850&version_name=8.5.0&device_platform=android&ssmix=a&device_type=G011A&device_brand=google&os_api=25&os_version=7.1.2&manifest_version_code=2018091951&resolution=1023*547&dpi=191&update_version_code=2018091951&_rticket=1579011248416&ts=1579011247";
     //links vars
     
     //html code
@@ -75,6 +75,9 @@ class staticHelper{
                 <p class="text-muted">
                     {ABOUT_TEXT}
                 </p>
+                </div>
+                <div class="col-sm-8 py-4">
+                <iframe src="https://discordapp.com/widget?id=550396548308008979&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
                 </div>
             </div>
             </div>
@@ -105,10 +108,10 @@ class staticHelper{
                 <strong>TikTokApi</strong>
             </a>
             <div style="position: relative; left: 400px">
-            <a target="_blank" href="YOUR DISCORD URL"><img height="40" width="120" src="https://i.ya-webdesign.com/images/join-discord-png-13.png"></a>
+            <a target="_blank" href="https://discord.gg/qa4Rpvf"><img height="40" width="120" src="https://i.ya-webdesign.com/images/join-discord-png-13.png"></a>
             </div>
             <div style="position: relative; left: 200px">
-            <!--YOUR KOFI WIDGET -->
+            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S210JMN');kofiwidget2.draw();</script> 
             </div>
             <button
                 class="navbar-toggler collapsed"
@@ -263,7 +266,7 @@ class staticHelper{
     public $rowItemAd = <<<'EOD'
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-            <!-- YOUR BANNER SCRIPT -->
+            <script data-cfasync='false' type='text/javascript' src='//p381417.clksite.com/adServe/banners?tid=381417_748764_0'></script>                <div class="card-body">
                     <p class="card-text">
                         <p style="font-size: 12px;">This ad helps to pay the hosting.</p>
                     </p>

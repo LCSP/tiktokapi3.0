@@ -36,6 +36,7 @@ class builderHelper{
     function buildInfo($key){
         $req = new request();
         $req = $req->getInfo($key, "user");
+        echo $req;
         $req = json_decode($req, true);
         if(!is_null($req)){
             $img = $req['user']['avatar_medium']['url_list'][0];
