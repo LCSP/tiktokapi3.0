@@ -59,12 +59,6 @@ $test = $test->getUserSearch("bonbibonkers", "0");*/
     <footer class="text-muted">
     <?php  echo $staticModules[1]; ?>
     </footer>
-    <div style="text-align: center;">
-    <div style="display: inline-block;">
-    This ad helps to pay the hosting.
-    <!-- your banned ad script -->
-    </div>
-    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
