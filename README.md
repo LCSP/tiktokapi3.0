@@ -3,7 +3,7 @@
 
 (It needs some fixes on the forms inside index.php and posts.php)
 
-~~Source Code Of  https://tik-tok.ga ~~
+~~Source Code Of  tik-tok.ga~~
 
 ~~(You can see this working on https://tik-tok.ga)~~
 
