@@ -3,6 +3,12 @@
 
 (It needs some fixes on the forms inside index.php and posts.php)
 
+## Login Services
+Login services are now avilables on this repo: [TikTokLoginServices](https://github.com/LCSP/TikTokLoginServices)
+
+
+-----
+
 ~~Source Code Of  tik-tok.ga~~
 
 ~~(You can see this working on https://tik-tok.ga)~~
